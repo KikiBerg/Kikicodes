@@ -1,6 +1,0 @@
-This favicon was generated using the following font:
-
-- Font Title: Inclusive Sans
-- Font Author: Copyright 2023 The Inclusive Sans Project Authors (https://github.com/LivKing/Inclusive-Sans)
-- Font Source: http://fonts.gstatic.com/s/inclusivesans/v1/0nkxC9biPuwflXcJ46P4PGWE0971owa2LB4i.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
