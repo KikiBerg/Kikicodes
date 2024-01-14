@@ -42,6 +42,22 @@ h1 {
     color: #3A4D39;
 }
 
+#menu {
+    font-size: 120%;
+    letter-spacing: 1.5px;
+    list-style-type: none;
+}
+
+#menu  > li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px dotted #3A4D39;
+       
+    
+}
+
 /*MAIN CONTENT*/
 main {
     background-color: #FEFAE0;
