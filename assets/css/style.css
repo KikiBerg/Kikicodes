@@ -1,3 +1,8 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
 /*Asterisk wildcard selector to override default styles added by the browser*/
 *{
     padding: 0;
@@ -12,17 +17,18 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #40513B;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*HEADER*/
 header {
-    background-color: #D7E9B9;
+    background-color: #CCD5AE;
 
 }
 
 /*MAIN CONTENT*/
 main {
-    background-color: #FFFBAC;
+    background-color: #FEFAE0;
     /*Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
 
@@ -31,6 +37,6 @@ main {
 
 /*FOOTER*/
 footer {
-    background-color: #FAAB78;
+    background-color: #FAEDCD;
 
 }
