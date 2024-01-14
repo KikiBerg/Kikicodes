@@ -23,7 +23,10 @@ body {
 /*HEADER*/
 header {
     background-color: #CCD5AE;
+}
 
+h1 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*MAIN CONTENT*/
