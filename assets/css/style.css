@@ -90,6 +90,7 @@ main {
     background-color: #FEFAE0;
     /*Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
+    margin-top: 50px;
 
 
 }
