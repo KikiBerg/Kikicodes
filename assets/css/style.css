@@ -27,7 +27,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 4px 2px #40513B;
+    box-shadow: 0 8px 3px #40513B;
     display: flex;  
     justify-content: space-between; 
     align-items: baseline;
@@ -125,5 +125,17 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 90px;
+        margin: 0 1.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 100px;
     }
 }
