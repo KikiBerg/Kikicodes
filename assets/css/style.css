@@ -94,7 +94,16 @@ main {
     /*Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
     margin-top: 50px;
+}
 
+/* Hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/caju-gomes-QDq3YliZg48-unsplash.jpg") no-repeat center center/cover;
+    position: relative;
+   
+    
 
 }
 
