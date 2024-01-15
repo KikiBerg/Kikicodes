@@ -55,6 +55,7 @@ header a {
     margin-bottom: 0.5em;
 }
 
+
 .active {
     border-bottom: 1px dotted #3A4D39;    
 }
@@ -102,6 +103,7 @@ main {
     width: 100%;
     background: url("../images/caju-gomes-QDq3YliZg48-unsplash.jpg") no-repeat center center/cover;
     position: relative;
+    
 
 }
 
@@ -114,11 +116,13 @@ main {
     width: fit-content;
     min-height: 100px;
     padding: 15px;
-    border-radius: 15px;
+    border: 1.5px solid #3A4D39;
+    border-radius: 10px;
     text-wrap: pretty;
     text-align: center;
     left: 30px;
     right: 30px;
+    
 }
 
 #hero-text > h2, #hero-text > h3 {
