@@ -139,3 +139,10 @@ footer {
         margin-top: 100px;
     }
 }
+
+/*Media query: Large devices (laptops and desktops, 992px and up)*/
+@media screen and (min-width: 992px){
+    #menu a:hover{
+        border-bottom: 1px dotted #3A4D39;
+    }
+}
