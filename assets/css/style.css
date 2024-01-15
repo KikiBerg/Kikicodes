@@ -29,7 +29,7 @@ h1, h2, h3 {
 
 /*HEADER*/
 header {
-    background-color: #CCD5AE;
+    background-color: #FFFBAC;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -64,7 +64,7 @@ header a {
 
 nav {
     position: absolute;
-    background-color: #CCD5AE;
+    background-color: #FFFBAC;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -117,8 +117,7 @@ main {
     min-height: 100px;
     padding: 15px;
     border: 1.5px solid #3A4D39;
-    border-radius: 10px;
-    text-wrap: pretty;
+    border-radius: 15px;
     text-align: center;
     left: 30px;
     right: 30px;
@@ -132,7 +131,7 @@ main {
 
 /*FOOTER*/
 footer {
-    background-color: #FAEDCD;
+    background-color: #40513B;
 }
 
 #social-networks{
@@ -146,7 +145,7 @@ footer {
 #social-networks i{
     font-size: 200%;
     padding: 10%;
-    color: #739072;
+    color: #fffcc9;
 }
 
 /*Media query: tablets and larger (768px and up)*/
