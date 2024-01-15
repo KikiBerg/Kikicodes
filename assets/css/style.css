@@ -72,7 +72,8 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle */
+
+/* Nav toggle*/ 
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -84,6 +85,8 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+
 
 /*MAIN CONTENT*/
 main {
