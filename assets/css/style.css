@@ -99,7 +99,7 @@ main {
 
 /* Hero section*/
 #hero {
-    height: 880px;
+    height: 890px;
     width: 100%;
     background: url("../images/caju-gomes-QDq3YliZg48-unsplash.jpg") no-repeat center center/cover;
     position: relative;
@@ -154,8 +154,8 @@ main {
     margin: 5px 0;
 }
 
-#circle-cover-bg-up {
-    background: url(../images/who-is-kiki-up.jpg) no-repeat top center / cover;
+#circle-cover-bg-end {
+    background: url(../images/pexels-aphiwat-chuangchoem-365839.jpg) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -163,23 +163,15 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-}
-
-#circle-cover-bg-down {
-    background: url(../images/who-is-kiki.jpg) no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /*Makes the square image into a circle*/
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    border: 2px dotted #3A4D39;
 }
 
 #kiki-image {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 /*FOOTER*/
@@ -257,10 +249,6 @@ footer {
       
     }
 
-   
-
-
-
 }
 
 /*Media query: Large devices (laptops and desktops, 992px and up)*/
@@ -284,6 +272,7 @@ footer {
 
     #kiki-image {
         order: 0;
+        
     }
 
     #experience-techstack {
@@ -297,6 +286,8 @@ footer {
     #experience-techstack > div {
         align-self: flex-start;
     }
+
+    
 
 
 }
