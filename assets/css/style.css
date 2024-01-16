@@ -176,6 +176,12 @@ main {
     max-height: 300px;
 }
 
+#kiki-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /*FOOTER*/
 footer {
     background-color: #40513B;
