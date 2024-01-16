@@ -235,6 +235,32 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 100px;
     }
+
+    /*Hero*/
+    #hero-text {
+        width: 300px;
+        right: 50px;
+    }
+
+    /* About section */
+    #about-education, #experience-techstack {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #about-education > div,
+    #experience-techstack > div {
+        width: 75%;
+        text-align: left;
+        align-self: center;
+      
+    }
+
+   
+
+
+
 }
 
 /*Media query: Large devices (laptops and desktops, 992px and up)*/
