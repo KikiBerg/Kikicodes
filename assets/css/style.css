@@ -269,3 +269,34 @@ footer {
         border-bottom: 1px dotted #3A4D39;
     }
 }
+
+/*Media query: Large devices (1200px and up)*/
+@media screen and (min-width: 1200px) {
+    /* About section */
+    #background {
+        flex-direction: row;
+        display: flex;
+    }
+
+    #background > div {
+        flex: 1;
+    }
+
+    #kiki-image {
+        order: 0;
+    }
+
+    #experience-techstack {
+        order: 1;
+    }
+
+    #about-education {
+        align-self: flex-end;
+    }
+
+    #experience-techstack > div {
+        align-self: flex-start;
+    }
+
+
+}
