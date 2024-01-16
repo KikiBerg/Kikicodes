@@ -154,6 +154,27 @@ main {
     margin: 5px 0;
 }
 
+#circle-cover-bg-up {
+    background: url(../images/who-is-kiki-up.jpg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*Makes the square image into a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#circle-cover-bg-down {
+    background: url(../images/who-is-kiki.jpg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*Makes the square image into a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
 /*FOOTER*/
 footer {
