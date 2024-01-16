@@ -128,6 +128,31 @@ main {
     color: #fffcc9;
 }
 
+/*About Kiki section*/
+#about {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#about-education>div, #experience-techstack>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#background p {
+    padding: 5px 10px;
+}
+
+#background hr {
+    border-top: 1px dotted #3A4D39;
+    margin: 5px 0;
+}
 
 
 /*FOOTER*/
