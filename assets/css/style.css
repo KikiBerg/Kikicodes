@@ -177,10 +177,36 @@ main {
 #kiki-image {
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center; 
 }
+
+/*Spoiler about Kiki's interests section*/
+
+#interests-spoiler {
+    background: url(../images/irena-carpaccio-atpN0zwV8CM-unsplash.jpg) no-repeat center / cover;
+    /*Handles rensponsivity without the need for a media query*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#interests-spoiler div {
+    color: #ECE3CE;
+    background-color: rgba(58, 77, 57, 0.6);
+    padding: 15px;
+    text-align: center;
+    /*this will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*creates a grid of meetup time divs over the background image*/
+    border: 2px solid white;
+}
+
+#interests-spoiler h3 {
+    /*Override the heading color set in general styles*/
+    color: #ECE3CE;
+}
+
 
 /*FOOTER*/
 footer {
