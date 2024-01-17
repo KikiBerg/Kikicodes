@@ -27,6 +27,13 @@ h1, h2, h3 {
     color: #3A4D39;
 }
 
+.underline {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color:#40513B;
+    text-decoration-thickness: 0.5px;
+}
+
 /*HEADER*/
 header {
     background-color: #FFFBAC;
