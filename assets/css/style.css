@@ -122,7 +122,7 @@ main {
     bottom: 50px;
     width: fit-content;
     min-height: 100px;
-    padding: 15px;
+    padding: 25px;
     border: 1.5px solid #3A4D39;
     border-radius: 15px;
     text-align: center;
@@ -134,6 +134,8 @@ main {
 #hero-text > h2, #hero-text > h3 {
     color: #fffcc9;
 }
+
+
 
 /*About Kiki section*/
 #about {
@@ -191,20 +193,26 @@ main {
 
 #interests-spoiler div {
     color: #ECE3CE;
-    background-color: rgba(58, 77, 57, 0.6);
-    padding: 15px;
+    background-color: rgba(58, 77, 57, 0.7);
+    padding: 20px;
     text-align: center;
     /*this will not wrap on screens of less than 400px wide.
     Each div will expand to fill the available space on its row*/
     flex-basis: 200px;
     flex-grow: 1;
     /*creates a grid of meetup time divs over the background image*/
-    border: 2px solid white;
+    border: 3px solid white;
+  
 }
 
 #interests-spoiler h3 {
     /*Override the heading color set in general styles*/
     color: #ECE3CE;
+}
+
+#spoiler h2 {
+    text-align: center;
+    text-transform: lowercase;
 }
 
 
