@@ -308,6 +308,8 @@ footer {
     color: #fffcc9;
 }
 
+
+
 /*Media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
     #photos {
@@ -319,7 +321,7 @@ footer {
 }
 
 /*Media query: tablets and larger (768px and up)*/
-@media screen and(min-width: 768px) {
+@media screen and (min-width: 768px) {
     /*Header*/
     nav {
         display: block;
@@ -386,14 +388,15 @@ footer {
     #contact {
         background-position: center;
         position: relative;
-    }
+               
+    }    
     
     /* Color changes for the text input and the join button to give some visual feedback to users on hover.*/
     #contact-form {
-        max-width: 400px;
+        max-width: 200px;
         position: absolute;
         left: 10%;
-        top: 150px;
+        top: 90px;
     }
 
     .text-input:hover {
@@ -408,7 +411,7 @@ footer {
 }
 
 /*Media query: Large devices (laptops and desktops, 992px and up)*/
-@media screen and(min-width: 992px) {
+@media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px dotted #3A4D39;
     }
@@ -421,7 +424,7 @@ footer {
 }
 
 /*Media query: Large devices (1200px and up)*/
-@media screen and(min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     /* About section */
     #background {
         flex-direction: row;
@@ -443,11 +446,10 @@ footer {
 
     #about-education {
         align-self: flex-end;
+        
     }
 
     #experience-techstack > div {
         align-self: flex-start;
     }
-
-
 }
