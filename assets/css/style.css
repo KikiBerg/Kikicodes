@@ -246,6 +246,16 @@ footer {
     color: #fffcc9;
 }
 
+/*Media query: large or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+        
+    }
+
+}
+
 /*Media query: tablets and larger (768px and up)*/
 @media screen and(min-width: 768px) {
     /*Header*/
@@ -288,18 +298,24 @@ footer {
     }
 
     /* About section */
-    #about-education,
-    #experience-techstack {
+    #about-education, #experience-techstack {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #about-education > div,
-    #experience-techstack > div {
+    #about-education > div, #experience-techstack > div {
         width: 75%;
-        text-align: left;
-        align-self: center;
+    }
+
+    #about-education > div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    /* Interests page */
+    #photos {
+        column-count: 2;
 
     }
 
@@ -309,6 +325,12 @@ footer {
 @media screen and(min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px dotted #3A4D39;
+    }
+
+    /* Interests page */
+    #photos {
+        column-count: 4;
+
     }
 }
 
