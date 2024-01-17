@@ -38,7 +38,28 @@
     </header>
 
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section id="contact">
+            <form action="https://formdump.codeinstitute.net" id="contact-form" method="post">
+                <h4>Let's get in touch. Send me a message:</h4>
+                <label for="fname">First Name</label>
+                <input type="text" name="firstname" id="fname" class="text-input" placeholder="Your name..." required>
+            <br>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lastname" id="lname" class="text-input" placeholder="Your last name..." required>
+            <br>
+                <label for="email_address">Email Address</label>
+                <input type="text" name="email_address" id="email_address" class="text-input" placeholder="Your email adress..." required>
+            <br>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Message" style="height:200px" ></textarea>
+            <br>
+
+            <button type="submit" class="join-button"><i class="fa-regular fa-envelope"></i>SEND MESSAGE</button>
+
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
