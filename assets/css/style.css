@@ -1,10 +1,9 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700 &display=swap');
 
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -20,7 +19,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Open Sans', sans-serif;
     text-transform: initial;
     letter-spacing: 1.5px;
@@ -30,7 +31,7 @@ h1, h2, h3 {
 .underline {
     text-decoration-line: underline;
     text-decoration-style: dashed;
-    text-decoration-color:#40513B;
+    text-decoration-color: #40513B;
     text-decoration-thickness: 0.5px;
 }
 
@@ -42,8 +43,8 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 11px 3px #40513B;
-    display: flex;  
-    justify-content: space-between; 
+    display: flex;
+    justify-content: space-between;
     align-items: baseline;
 }
 
@@ -58,13 +59,13 @@ header a {
     list-style-type: none;
 }
 
-#menu  > li {
+#menu > li {
     margin-bottom: 0.5em;
 }
 
 
 .active {
-    border-bottom: 1px dotted #3A4D39;    
+    border-bottom: 1px dotted #3A4D39;
 }
 
 /*Navbar styles, dropdown toggle*/
@@ -81,7 +82,7 @@ nav {
 }
 
 
-/* Nav toggle*/ 
+/* Nav toggle*/
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -93,7 +94,6 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-
 
 
 /*MAIN CONTENT*/
@@ -110,13 +110,13 @@ main {
     width: 100%;
     background: url("../images/caju-gomes-QDq3YliZg48-unsplash.jpg") no-repeat center center/cover;
     position: relative;
-    
+
 
 }
 
 #hero-text {
     /*Final rgba value sets the opacity so it is semi-transparent*/
-    background-color: rgba(115, 144, 114, .7);
+    background-color: rgba(115, 144, 114, 0.7);
     font-size: 130%;
     position: absolute;
     bottom: 50px;
@@ -128,13 +128,13 @@ main {
     text-align: center;
     left: 30px;
     right: 30px;
-    
+
 }
 
-#hero-text > h2, #hero-text > h3 {
+#hero-text > h2,
+#hero-text > h3 {
     color: #fffcc9;
 }
-
 
 
 /*About Kiki section*/
@@ -149,7 +149,8 @@ main {
     font-size: 280%;
 }
 
-#about-education>div, #experience-techstack>div {
+#about-education > div,
+#experience-techstack > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -164,7 +165,7 @@ main {
 }
 
 #circle-cover-bg-end {
-    background: url(../images/pexels-aphiwat-chuangchoem-365839.jpg) no-repeat top center / cover;
+    background: url('../images/pexels-aphiwat-chuangchoem-365839.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -173,19 +174,19 @@ main {
     max-width: 300px;
     max-height: 300px;
     border: 2px dotted #3A4D39;
-    
+
 }
 
 #kiki-image {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 /*Spoiler about Kiki's interests section*/
 
 #interests-spoiler {
-    background: url(../images/irena-carpaccio-atpN0zwV8CM-unsplash.jpg) no-repeat center / cover;
+    background: url('../images/irena-carpaccio-atpN0zwV8CM-unsplash.jpg') no-repeat center / cover;
     /*Handles rensponsivity without the need for a media query*/
     display: flex;
     flex-wrap: wrap;
@@ -201,8 +202,8 @@ main {
     flex-basis: 200px;
     flex-grow: 1;
     /*creates a grid of meetup time divs over the background image*/
-    border: 3px solid white;
-  
+    border: 2px solid #ECE3CE;
+
 }
 
 #interests-spoiler h3 {
@@ -213,7 +214,17 @@ main {
 #spoiler h2 {
     text-align: center;
     text-transform: lowercase;
+
 }
+
+/* Interests page with photos and image texts */
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+
 
 
 /*FOOTER*/
@@ -221,7 +232,7 @@ footer {
     background-color: #40513B;
 }
 
-#social-networks{
+#social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -229,14 +240,14 @@ footer {
     list-style-type: none;
 }
 
-#social-networks i{
+#social-networks i {
     font-size: 200%;
     padding: 10%;
     color: #fffcc9;
 }
 
 /*Media query: tablets and larger (768px and up)*/
-@media screen and (min-width: 768px) {
+@media screen and(min-width: 768px) {
     /*Header*/
     nav {
         display: block;
@@ -277,7 +288,8 @@ footer {
     }
 
     /* About section */
-    #about-education, #experience-techstack {
+    #about-education,
+    #experience-techstack {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -288,20 +300,20 @@ footer {
         width: 75%;
         text-align: left;
         align-self: center;
-      
+
     }
 
 }
 
 /*Media query: Large devices (laptops and desktops, 992px and up)*/
-@media screen and (min-width: 992px){
-    #menu a:hover{
+@media screen and(min-width: 992px) {
+    #menu a:hover {
         border-bottom: 1px dotted #3A4D39;
     }
 }
 
 /*Media query: Large devices (1200px and up)*/
-@media screen and (min-width: 1200px) {
+@media screen and(min-width: 1200px) {
     /* About section */
     #background {
         flex-direction: row;
@@ -314,7 +326,7 @@ footer {
 
     #kiki-image {
         order: 0;
-        
+
     }
 
     #experience-techstack {
@@ -328,8 +340,6 @@ footer {
     #experience-techstack > div {
         align-self: flex-start;
     }
-
-    
 
 
 }
