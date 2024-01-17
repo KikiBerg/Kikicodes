@@ -102,7 +102,14 @@ main {
     /*Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
     margin-top: 50px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
+
+
+
+
 
 /* Hero section*/
 #hero {
@@ -228,6 +235,58 @@ main {
     line-height: 0;
 }
 
+/* Contact page */
+
+#contact {
+    background-image: url(../images/pexels-kristina-paukshtite-712876.jpg);
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#contact-form {
+    color:#fffcc9;
+    background-color: rgba(64, 81, 59, 0.6);
+    padding: 30px;
+    border: 1px solid #FFFBAC;
+}
+
+#contact-form > h4 {
+    color:#fffcc9;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-input {
+    background: transparent;
+    color: #fffcc9;
+    border: 0.5px dotted #fffcc9;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    padding: 0 5px;
+    
+}
+
+::placeholder {
+    color: rgba(254, 250, 224, 0.6);
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    background-color: rgba(64, 81, 59, 0.6);
+    color: #fffcc9;
+    font-size: 100%;
+    text-transform: lowercase;
+    
+}
+
+
 
 
 /*FOOTER*/
@@ -320,6 +379,30 @@ footer {
     #photos {
         column-count: 3;
 
+    }
+
+    /* Contact page */
+
+    #contact {
+        background-position: center;
+        position: relative;
+    }
+    
+    /* Color changes for the text input and the join button to give some visual feedback to users on hover.*/
+    #contact-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #fffcc9;
+    }
+
+    .join-button:hover {
+        background-color: #fffcc9;
+        color: #3A4D39;
     }
 
 }
