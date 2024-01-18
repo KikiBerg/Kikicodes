@@ -379,7 +379,7 @@ footer {
 
     /* Interests page */
     #photos {
-        column-count: 3;
+        column-count: 3;     
 
     }
 
@@ -388,7 +388,7 @@ footer {
     #contact {
         background-position: center;
         position: relative;
-               
+                      
     }    
     
     /* Color changes for the text input and the join button to give some visual feedback to users on hover.*/
@@ -418,7 +418,7 @@ footer {
 
     /* Interests page */
     #photos {
-        column-count: 4;
+        column-count: 3;
 
     }
 }
