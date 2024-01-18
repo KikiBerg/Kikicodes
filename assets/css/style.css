@@ -156,8 +156,7 @@ main {
     font-size: 280%;
 }
 
-#about-education > div,
-#experience-techstack > div {
+#about-education > div, #experience-techstack > div {
     line-height: 20px;
     margin-bottom: 20px;    
 }
@@ -224,7 +223,7 @@ main {
 
 }
 
-/* Interests page with photos and image texts */
+/* Photos page */
 
 #photos img {
     width: 100%;
@@ -277,8 +276,8 @@ main {
 
 .join-button {
     margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
+    border-radius: 10px;
+    padding: 10px 30px;
     background-color: rgba(64, 81, 59, 0.6);
     color: #fffcc9;
     font-size: 100%;
@@ -370,16 +369,15 @@ footer {
 
     #about-education > div, #experience-techstack > div {
         width: 75%;
+        text-align: left;
+        align-self: center;
     }
 
-    #about-education > div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
-    /* Interests page */
+    
+    /* Photos page */
     #photos {
-        column-count: 2;     
+        column-count: 2;
+             
 
     }
 
@@ -444,12 +442,9 @@ footer {
         order: 1;
     }
 
-    #about-education {
-        align-self: flex-end;
-        
+    #about-education > div, #experience-techstack > div {
+        align-self: center;
+        text-align: left;                
     }
-
-    #experience-techstack > div {
-        align-self: flex-start;
-    }
+    
 }
