@@ -12,7 +12,8 @@ This page is my first student project. Hopefully it will work as a placeholder w
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/TheQuizArms?color=orange&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/TheQuizArms?color=yellow&style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/TheQuizArms?color=green&style=for-the-badge)
-![W3C Validation](https://img.shields.io/w3c-validation/html?logoColor=blue&style=for-the-badge&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FTheQuizArms%2F)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2F)
+
 
 ## CONTENTS
 
@@ -26,9 +27,9 @@ This page is my first student project. Hopefully it will work as a placeholder w
   * [Wireframes](#wireframes)
   * [Features](#features)
     * [The Home Page](#the-home-page)
-    * [The Game Page](#the-game-page)
-    * [The High Scores Page](#the-high-scores-page)
-    * [The 404 Error Page](#the-404-error-page)
+    * [The About Page](#the-about-page)
+    * [The Photos Page](#the-photos-page)
+    * [The Contact Page](#the-contact-page)
     * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
 
@@ -145,7 +146,7 @@ The how to play  button opens a modal showing the user how to play the game. The
 
 The play button will redirect the user to the game page to select the difficulty of their quiz and the high Scores button redirects the user to the high scores page.
 
-#### The Game Page
+#### The About Page
 
 The game page displays the sites name as a title. This also acts as a link back to the home page. Initially on the game page you will be shown a container with three buttons to select the difficulty of the quiz the user can choose from.
 
@@ -161,23 +162,17 @@ Once a user has answered the 15 questions they will be taken to the end of the g
 
 ![End of game](documentation/features/end.png)
 
-#### The High Scores Page
+#### The Photos Page
 
 The high scores page displays the sites name as a title. This also acts as a link back to the home page. The page then displays the high scores recorded - showing the team name a user chooses and their score. The high scores page will list the top ten scores recorded. Underneath the high scores are two buttons to allow the user to play again or be redirected to the home page.
 
 ![High Scores Page Image](documentation/features/highscores.png)
 
-#### The 404 Error Page
+#### The Contact Page
 
 The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
 
 ![Error page image](documentation/features/404.png)
-
-#### The 500 Error Page
-
-The 500 error page displays the sites names as a title, which also acts as a link back to the home page. Within the container is an error message that tells the user sorry there seems to be an issue retrieving the quiz data. Two buttons for the home page and the high scores page are below. I did not add the play game button here, as a user will been directed to this page if there is an error calling the API.
-
-![500 Error Page](documentation/features/500.png)
 
 #### Future Implementations
 
@@ -212,7 +207,7 @@ In a future implementation I think it would be a great accessibility feature to 
 
 ### Languages Used
 
-HTML, CSS, Javascript
+HTML, CSS
 
 ### Frameworks, Libraries & Programs Used
 
@@ -226,8 +221,6 @@ HTML, CSS, Javascript
 
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-* [jQuery](https://jquery.com/) - A JavaScript library.
-
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 * [TinyPNG](https://tinypng.com/) To compress images
@@ -240,10 +233,6 @@ HTML, CSS, Javascript
 
 * [Shields.io](https://shields.io/) To add badges to the README
 
-* [Open Trivia DataBase](https://opentdb.com/) - API used for the trivia questions.
-
-* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) - a google chrome extension to enable you to view JSON as raw data or parsed.
-
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
@@ -254,12 +243,12 @@ HTML, CSS, Javascript
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/).
+The site is deployed using GitHub Pages - [Kiki codes](https://kikiberg.github.io/Kikicodes/).
 
 To Deploy the site using GitHub Pages:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms).
+2. Go to the repository for this project, [KikiBerg/Kikicodes](https://github.com/KikiBerg/Kikicodes).
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
@@ -272,7 +261,7 @@ To Deploy the site using GitHub Pages:
 To fork the repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [KikiBerg/Kikicodes](https://github.com/KikiBerg/Kikicodes)
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
@@ -280,7 +269,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
+2. Go to the repository for this project, [KikiBerg/Kikicodes](https://github.com/KikiBerg/Kikicodes)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
