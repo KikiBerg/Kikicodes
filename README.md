@@ -7,11 +7,6 @@ Visit the deployed site: [Kiki codes](https://kikiberg.github.io/Kikicodes/)
 This page is my first student project. Hopefully it will work as a placeholder while I'm developing my portfolio site.
 
 
-
-![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/TheQuizArms?color=red&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/TheQuizArms?color=orange&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/kera-cudmore/TheQuizArms?color=yellow&style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/kera-cudmore/TheQuizArms?color=green&style=for-the-badge)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2F)
 
 
