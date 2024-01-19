@@ -7,8 +7,14 @@ Visit the deployed site: [Kiki codes](https://kikiberg.github.io/Kikicodes/)
 This page is my first student project. 
 Hopefully it will work as a placeholder while I'm developing my portfolio site.
 
-
+![GitHub repo size](https://img.shields.io/github/repo-size/KikiBerg/Kikicodes)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2F)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/KikiBerg/Kikicodes/main)
+![GitHub language count](https://img.shields.io/github/languages/count/KikiBerg/Kikicodes)
+![GitHub top language](https://img.shields.io/github/languages/top/KikiBerg/Kikicodes)
+
+
+
 
 
 ## CONTENTS
