@@ -4,7 +4,8 @@
 
 Visit the deployed site: [Kiki codes](https://kikiberg.github.io/Kikicodes/)
 
-This page is my first student project. Hopefully it will work as a placeholder while I'm developing my portfolio site.
+This page is my first student project. 
+Hopefully it will work as a placeholder while I'm developing my portfolio site.
 
 
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2F)
@@ -49,26 +50,23 @@ This page is my first student project. Hopefully it will work as a placeholder w
   * [Acknowledgments](#acknowledgments)
 
 - - -
-![The Quiz Arms Banner](documentation/the-quiz-arms-banner.png)
+![The Kiki codes Banner](documentation/Kiki_codes_Banner.png)
 
 ## User Experience (UX)
+
+I wanted to create an online portfolio about myself.
 
 ### User Stories
 
 #### First Time Visitor Goals
 
-* I want to take part in a pub quiz online and improve my general knowledge. I want to be able to play at any time, anywhere.
-* I want the site to be responsive to my device.
+* I want to make it interesting enough for possible future employers to see.
+* I want the site to be responsive for different device sizes.
 * I want the site to be easy to navigate.
 
-#### Returning Visitor Goals
+#### Returning and frequent Visitor Goals
 
-* I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site.
-
-#### Frequent Visitor Goals
-
-* I want to be able to adjust the difficulty level to keep improving my knowledge.
-* I want to be able to log my high scores to see how I am performing.
+* I want to be able to see updates (news page) about Kiki's fulfillments.
 
 - - -
 
