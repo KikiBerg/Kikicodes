@@ -115,7 +115,7 @@ main {
 #hero {
     height: 890px;
     width: 100%;
-    background: url("../images/caju-gomes-QDq3YliZg48-unsplash.jpg") no-repeat center center/cover;
+    background: url('../images/caju-gomes-QDq3YliZg48-unsplash.jpg') no-repeat center center/cover;
     position: relative;
 
 
@@ -234,10 +234,12 @@ main {
     line-height: 0;
 }
 
+
+
 /* Contact page */
 
 #contact {
-    background-image: url(../images/pexels-kristina-paukshtite-712876.jpg);
+    background-image: url('../images/pexels-kristina-paukshtite-712876.jpg');
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
