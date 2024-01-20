@@ -242,6 +242,7 @@ main {
     background-position: 75%;
     flex-grow: 1;
     padding: 20px 10% 0 10%;
+    
 }
 
 #contact-form {
@@ -249,6 +250,7 @@ main {
     background-color: rgba(64, 81, 59, 0.6);
     padding: 30px;
     border: 1px solid #FFFBAC;
+    border-radius: 10px;
 }
 
 #contact-form > h4 {
@@ -277,11 +279,12 @@ main {
 .join-button {
     margin-top: 20px;
     border-radius: 10px;
-    padding: 10px 30px;
+    padding: 5px 30px;
     background-color: rgba(64, 81, 59, 0.6);
     color: #fffcc9;
     font-size: 100%;
     text-transform: lowercase;
+        
     
 }
 
