@@ -392,12 +392,11 @@ footer {
                       
     }    
     
-    /* Color changes for the text input and the join button to give some visual feedback to users on hover.*/
     #contact-form {
         max-width: 200px;
         position: absolute;
         left: 10%;
-        top: 90px;
+        top: 50px;
     }
 
     .text-input:hover {
