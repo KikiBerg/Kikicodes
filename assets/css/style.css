@@ -112,13 +112,11 @@ main {
 
 
 /* Hero section*/
-#hero {
+#hero {    
     height: 890px;
     width: 100%;
-    background: url('../images/caju-gomes-QDq3YliZg48-unsplash.jpg') no-repeat center center/cover;
+    background: url('../images/caju-gomes-QDq3YliZg48-unsplash.webp') no-repeat center center/cover;
     position: relative;
-
-
 }
 
 #hero-text {
@@ -171,7 +169,7 @@ main {
 }
 
 #circle-cover-bg-end {
-    background: url('../images/pexels-aphiwat-chuangchoem-365839.jpg') no-repeat top center / cover;
+    background: url('../images/pexels-aphiwat-chuangchoem-365839.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -192,7 +190,7 @@ main {
 /*Spoiler about Kiki's interests section*/
 
 #interests-spoiler {
-    background: url('../images/irena-carpaccio-atpN0zwV8CM-unsplash.jpg') no-repeat center / cover;
+    background: url('../images/irena-carpaccio-atpN0zwV8CM-unsplash.webp') no-repeat center / cover;
     /*Handles rensponsivity without the need for a media query*/
     display: flex;
     flex-wrap: wrap;
@@ -239,7 +237,7 @@ main {
 /* Contact page */
 
 #contact {
-    background-image: url('../images/pexels-kristina-paukshtite-712876.jpg');
+    background-image: url('../images/pexels-kristina-paukshtite-712876.webp');
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
