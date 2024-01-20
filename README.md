@@ -84,103 +84,82 @@ As the pages of the site have a background image, I wanted to keep the colour sc
 
 In my css file I have used variables to declare colours, and then used these throughout the css file. I was recently introduced to this method during a hackathon - it is a useful convention to use as it allows you to alter the colour throughout the website if you decide to update a colour, by changing the colour once in the variable.
 
-* I have used `#f5f5f5` & `#000000` as the primary and secondary colours used for the sites text.
-* I have used `#292929` as the overlay used over the sites background image.
-* I have used `#a50c3c` for the border of the modal and to display the wrong answers.
-* I have used `#047638` to display the correct answer.
+* I have used `#FFFCC9` & `#40513B` as the primary and secondary colours used for the sites text.
+* I have used `#FFFEF7` as the overlay used over the sites background image.
+* I have used `#FFFBAC` for the header.
+* I have used `#40513B` for the footer.
 
-  ![The Quiz Arms Color Scheme](documentation/color-scheme.webp)
+  ![Kiki codes Color Scheme](documentation/Kiki_codes_Color_Scheme.webp)
 
 ### Typography
 
 Google Fonts was used to import the chosen fonts for use in the site.
 
-* For the Page Title I have used the google font [Almendra](https://fonts.google.com/specimen/Almendra?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=almendra). Almendra is based on a calligraphy style and I have chosen it as it looks like the type of font you would see on a pubs name sign, slightly medieval looking and grand.
-
-![Almendra Font Example](documentation/almendra.webp)
-
-* For the body of the page I have used the google font [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand). QuickSand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
-
-![Quicksand Font Example](documentation/quicksand.webp)
+* I have used the google font [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans).
+* The reason I chose this one is for its clean and modern sans-serif typeface.
+* It’s readable in both small and huge sizes.
+* It's simple and makes the content easily readable.
 
 ### Imagery
 
-As the website is called The Quiz Arms, I wanted to use an image for the page background of a pub to give the user the feeling that they are participating in a pub quiz.
+As the website is called Kiki codes, I wanted to make the coding theme stand out by using icons related to coding.
 
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop using balsamiq.
 
 ![Home Page](documentation/wireframes/homewireframe.webp)
-![Difficulty Page](documentation/wireframes/difficultywireframe.webp)
-![Game Page](documentation/wireframes/gamewireframe.webp)
-![High Scores Page](documentation/wireframes/highscorewireframe.webp)
+![About Page](documentation/wireframes/difficultywireframe.webp)
+![Photos Page](documentation/wireframes/gamewireframe.webp)
+![Contact Page](documentation/wireframes/highscorewireframe.webp)
 
 ### Features
 
-The website is comprised of a home page, a games page, a high scores page, a 404 error page & a 500 error page.
+The website is comprised of a home page, an about page, a photos page & a contact page.
 
 All Pages on the website are responsive and have:
 
 * A favicon in the browser tab.
 
-  ![favicon](documentation/favicon-image.webp)
+![favicon](documentation/favicon-image.webp)
 
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
-  ![The Quiz Arms Title](documentation/the-quiz-arms-banner.png)
+![The Kiki codes Title](documentation/Kiki_codes_Banner.png)
 
-* Every page will display a custom cursor when on a button. This feature is not available on mobile touch devices.
+* Every page will display as dotted and underlined when there is a hovering. This feature is available only on larger devices.
 
-![Custom Cursor](documentation/features/custom-cursor.gif)
+![Custom Cursor](documentation/Kiki_codes_Cursor.webp)
 
 #### The Home Page
 
-The home page of The Quiz Arms displays the sites name as a title and then a container which holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are three buttons, how to play, play and high scores.
+The home page of Kiki codes displays the site's name as a title, an image in the background and then a container which holds some Hi text.
 
-![Home page image](documentation/features/index.png)
-
-The how to play  button opens a modal showing the user how to play the game. The modal contains a close button which will close the modal, and show the home page again.
-
-![Modal open image](documentation/features/modal.png)
-
-The play button will redirect the user to the game page to select the difficulty of their quiz and the high Scores button redirects the user to the high scores page.
+![Home page image](documentation/Kiki_codes_Banner_Home_page.webp)
 
 #### The About Page
 
-The game page displays the sites name as a title. This also acts as a link back to the home page. Initially on the game page you will be shown a container with three buttons to select the difficulty of the quiz the user can choose from.
+The about page displays the sites name as a title. There are two sections ............
 
-![Image of the game page difficulty selection buttons](documentation/features/difficulty.png)
-
-Once the user has selected their difficulty they will then be shown the quiz area. The quiz area contains the question and the 4  answer choices.
-
-when a user selects an answer, they will then be prevented from selecting any more answers. The quiz area border and the button selected will change styles depending on whether the answer selected was correct or incorrect. If the answer selected was correct, the score counter will add 10 to the score total. When the user clicks the next button the question no counter will increase by 1. If the user selects the wrong answer, the button selected will display red, and the correct answer will display as green.
-
-![Image of quiz area](documentation/features/quiz.png)
-
-Once a user has answered the 15 questions they will be taken to the end of the game which will allow them to enter their team name and submit it to be entered onto the high scores page if it is in the top 10 scores. The submit button is disabled by default to prevent the user from submitting without a team name. This is made clear to the user as the cursor will show not allowed when hovered over the submit button.
-
-![End of game](documentation/features/end.png)
+![About page image](documentation/features/difficulty.png)
 
 #### The Photos Page
 
-The high scores page displays the sites name as a title. This also acts as a link back to the home page. The page then displays the high scores recorded - showing the team name a user chooses and their score. The high scores page will list the top ten scores recorded. Underneath the high scores are two buttons to allow the user to play again or be redirected to the home page.
+The photos page displays the sites name as a title............
 
-![High Scores Page Image](documentation/features/highscores.png)
+![Photos Page image](documentation/features/highscores.png)
 
 #### The Contact Page
 
-The 404 error page displays the sites name as a title. This also acts as a link back to the home page. Within the page container there is a sorry message explaining to the user that there has been an error directing them to the page they were looking for. The user is then given a choice of three buttons to redirect them to other pages on the site, the home page, the games page and the high scores page.
+The contact page displays the sites name as a title............
 
-![Error page image](documentation/features/404.png)
+![Contact page image](documentation/features/404.png)
 
 #### Future Implementations
 
 In future implementations I would like to:
 
-1. Give users the option to select the amount of questions in their quiz.
-2. Look into making the quiz a multiplayer game, so that it could be played by teams, which would make the quiz even more like a pub quiz.
-3. Create a back end database to enable me to store scores which would then allow you to see how you scored against other players.
-4. Look further into the accessibility for people with colour blindness, perhaps by adding symbols such as a tick or cross next to the answer when they are checked.
+1. Add one more page that will include any updates and news about Kiki's fulfillments.
+2. Look further into the accessibility for people with colour blindness, perhaps by adding symbols such as a tick or cross next to the answer when they are checked.
 
 ### Accessibility
 
@@ -230,7 +209,7 @@ HTML, CSS
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
-* [Shields.io](https://shields.io/) To add badges to the README
+* [Shields.io](https://shields.io/) To add static badges to the README
 
 * [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - a google chrome extension that allows you to view your site as people with accessibility needs would see it.
 
