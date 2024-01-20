@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700 &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital, wght@0, 300;0, 400;0, 500;0, 700;1, 300;1, 400;1, 500;1, 700 &display=swap');
 
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
@@ -98,7 +98,7 @@ nav {
 
 /*MAIN CONTENT*/
 main {
-    background-color: #fffef7;
+    background-color: #FFFEF7;
     /*Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
     margin-top: 50px;
@@ -108,11 +108,8 @@ main {
 }
 
 
-
-
-
 /* Hero section*/
-#hero {    
+#hero {
     height: 890px;
     width: 100%;
     background: url('../images/caju-gomes-QDq3YliZg48-unsplash.webp') no-repeat center center/cover;
@@ -154,9 +151,10 @@ main {
     font-size: 280%;
 }
 
-#about-education > div, #experience-techstack > div {
+#about-education > div,
+#experience-techstack > div {
     line-height: 20px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
 
 #background p {
@@ -232,7 +230,24 @@ main {
     line-height: 0;
 }
 
+/* Container for the text */
+.container {
+    position: relative;    
+}
 
+/* Bottom right text */
+.text-block p {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background-color: rgba(115, 144, 114, 0.8);
+    color:#fffcc9;
+    padding: 8px;
+    font-size: 90%;
+    border: 1.5px dotted #fffcc9;
+    border-radius: 8px;
+    text-transform: lowercase;    
+}
 
 /* Contact page */
 
@@ -241,12 +256,12 @@ main {
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
-    padding: 20px 10% 0 10%;
-    
+    padding: 20px 10% 0;
+
 }
 
 #contact-form {
-    color:#fffcc9;
+    color: #fffcc9;
     background-color: rgba(64, 81, 59, 0.6);
     padding: 30px;
     border: 1px solid #FFFBAC;
@@ -254,7 +269,7 @@ main {
 }
 
 #contact-form > h4 {
-    color:#fffcc9;
+    color: #fffcc9;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -267,9 +282,9 @@ main {
     cursor: pointer;
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 20px;
     padding: 0 5px;
-    
+
 }
 
 ::placeholder {
@@ -284,11 +299,9 @@ main {
     color: #fffcc9;
     font-size: 100%;
     text-transform: lowercase;
-        
-    
+
+
 }
-
-
 
 
 /*FOOTER*/
@@ -311,14 +324,14 @@ footer {
 }
 
 
-
 /*Media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
         column-gap: 0;
-        
     }
+
+    
 
 }
 
@@ -364,24 +377,24 @@ footer {
     }
 
     /* About section */
-    #about-education, #experience-techstack {
+    #about-education,
+    #experience-techstack {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #about-education > div, #experience-techstack > div {
+    #about-education > div,
+    #experience-techstack > div {
         width: 75%;
         text-align: left;
         align-self: center;
     }
 
-    
+
     /* Photos page */
     #photos {
         column-count: 2;
-             
-
     }
 
     /* Contact page */
@@ -389,9 +402,9 @@ footer {
     #contact {
         background-position: center;
         position: relative;
-                      
-    }    
-    
+
+    }
+
     #contact-form {
         max-width: 200px;
         position: absolute;
@@ -419,7 +432,6 @@ footer {
     /* Interests page */
     #photos {
         column-count: 3;
-
     }
 }
 
@@ -444,9 +456,10 @@ footer {
         order: 1;
     }
 
-    #about-education > div, #experience-techstack > div {
+    #about-education > div,
+    #experience-techstack > div {
         align-self: center;
-        text-align: left;                
+        text-align: left;
     }
-    
+
 }
