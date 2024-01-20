@@ -140,13 +140,13 @@ The home page of Kiki codes displays the site's name as a title, an image in the
 
 The about page displays the sites name as a title. There are two sections ............
 
-![About page image](documentation/features/difficulty.png)
+![About page image](documentation/Kiki_codes_Banner_About_page.webp)
 
 #### The Photos Page
 
 The photos page displays the sites name as a title............
 
-![Photos Page image](documentation/features/highscores.png)
+![Photos Page image](documentation/Kiki_codes_Banner_Photos_page.webp)
 
 #### The Contact Page
 
