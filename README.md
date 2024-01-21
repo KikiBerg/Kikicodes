@@ -292,14 +292,8 @@ All other content for the site, such as introduction messages and instructions w
 
 I would like to acknowledge the following people:
 
-* Adegbenga  Adeye - My Code Institute Mentor.
+* Jubril Akolade - My Code Institute Mentor.
 
-* Bim Williams - For being a great sounding board for me when I faced issues with moving onto the next question in the quiz, and for helping solve the issue faced with the HTML entity characters in the answer buttons.
+* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to review my project and look over the code.
 
-* [Dave Horrocks](https://github.com/daveyjh) - For taking the time to walk through my code with me when I was struggling with adding event listeners.
-
-* [Emanuel Silva](https://github.com/manni8436) - For cheering me on when I was struggling with the JavaScript, and for testing the site.
-
-* [Abi Harrison](https://github.com/Abibubble) - For being a great rubber duck and helping debug, helping to test the site and for sharing her knowledge on accessibility.
-
-* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to play the quiz and look over the code.
+* The Tutor support from Code Institute for assisting and explaining.
