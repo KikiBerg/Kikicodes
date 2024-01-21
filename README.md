@@ -152,7 +152,7 @@ The photos page displays the sites name as a title............
 
 The contact page displays the sites name as a title............
 
-![Contact page image](documentation/features/404.png)
+![Contact page image](documentation/Kiki_codes_Banner_Contact_page.webp)
 
 #### Future Implementations
 
@@ -188,6 +188,10 @@ In a future implementation I think it would be a great accessibility feature to 
 HTML, CSS
 
 ### Frameworks, Libraries & Programs Used
+
+* [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) - Used for finding images.
+
+* [Font Awesome](https://fontawesome.com/) - Used for the icons.
 
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
