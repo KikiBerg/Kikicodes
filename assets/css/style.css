@@ -35,6 +35,10 @@ h3 {
     text-decoration-thickness: 0.5px;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /*HEADER*/
 header {
     background-color: #FFFBAC;

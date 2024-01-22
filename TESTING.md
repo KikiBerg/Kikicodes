@@ -3,6 +3,7 @@
 ![Kiki codes shown on a variety of screen sizes](assets/images/Kiki_codes_Mockup.png)
 
 Visit the deployed site: [Kiki codes](https://kikiberg.github.io/Kikicodes/)
+Return back to the [README.md](README.md) file.
 
 - - -
 
@@ -11,17 +12,14 @@ Visit the deployed site: [Kiki codes](https://kikiberg.github.io/Kikicodes/)
 * [AUTOMATED TESTING](#automated-testing)
   * [W3C Validator](#w3c-validator)
   * [Lighthouse](#lighthouse)
+  * [Browser Compatibility](#browser-compatibility)
 * [MANUAL TESTING](#manual-testing)
   * [Testing User Stories](#testing-user-stories)
   * [Full Testing](#full-testing)
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
-
 During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
-
-I utilised the console in the developer tools to work through small sections of JavaScript and ensure that the code was working, and also to troubleshoot where issues were.
-
-I have gone through each page using google chrome developer tools & Firefox inspector tool to ensure that each page is responsive on a variety of different screen sizes and devices.
+I have gone through each page using google chrome developer tools to ensure that each page is responsive on a variety of different screen sizes and devices.
 
 - - -
 
@@ -29,7 +27,16 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 ### W3C Validator
 
-[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+[W3C](https://validator.w3.org/) was used to validate the HTML and CSS on all pages of the website.
+
+Page | W3C URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2F) | ![screenshot](testing/w3/Kiki_codes_Testing_w3_html_Home.png) | No warnings |
+| About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fabout.html) | ![screenshot](testing/w3/Kiki_codes_Testing_w3_html_About.png) | No warnings|
+| Photos | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fspeciallty-cakes.html) | ![screenshot](documentation/html-validation-birthday-cakes.jpg) | no warnings|
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FEfthymiaKakoulidou.github.io%2Fcakes-by-kg%2Fsweet-treats.html) | ![screenshot](documentation/html-validation-birthday-cakes.jpg) | no warnings|
+
+
 
 * [index.html](testing/w3/w3-index.png) - Passed.
 * [about.html](testing/w3/w3-game.png) - No errors, 1 Warning. The warning is for an empty H2 tag. This is where the question is inserted using jQuery.
