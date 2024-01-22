@@ -136,7 +136,23 @@ main {
     right: 30px;
 }
 
-#hero-text > h4, #hero-text > h3, #hero-text > a {
+#link-to-about-text {
+    background-color: rgba(115, 144, 114, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 50px;
+    width: fit-content;
+    min-height: 100px;
+    padding: 25px;
+    border: 1.5px solid #3A4D39;
+    border-radius: 15px;
+    text-align: center;
+    left: 30px;
+    right: 30px;    
+
+}
+
+#hero-text > h4, #hero-text > h3, #hero-text > a, #link-to-about-text > a, #link-to-about-text > h4 {
     color: #fffcc9;
     text-decoration: none;
 }
@@ -386,6 +402,7 @@ footer {
         right: 50px;
     }
 
+    
     /* About section */
     #about-education,
     #experience-techstack {
