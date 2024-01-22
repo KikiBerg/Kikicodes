@@ -121,7 +121,7 @@ All Pages on the website are responsive and have:
 
 * A favicon in the browser tab.
 
-![favicon](documentation/favicon-image.webp)
+![favicon](documentation/Kiki_codes_favicon.png)
 
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
 ![The Kiki codes Title](documentation/Kiki_codes_Banner.png)
@@ -163,7 +163,7 @@ In future implementations I would like to:
 
 ### Accessibility
 
-I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+I have tried during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
 
 * Using semantic HTML.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
@@ -188,8 +188,6 @@ In a future implementation I think it would be a great accessibility feature to 
 HTML, CSS
 
 ### Frameworks, Libraries & Programs Used
-
-* [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) - Used for finding images.
 
 * [Font Awesome](https://fontawesome.com/) - Used for the icons.
 
@@ -268,25 +266,15 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Code Used
 
-* I used [this You Tube tutorial](https://www.youtube.com/watch?v=XH5OW46yO8I) to learn how to create a modal for the how to play section.
-
-* As the API I used for the questions declared the correct answer and then had an array of incorrect answers, I had to find a way to shuffle the answers together so that the correct answer wouldn't always appear on the same button. Research led me to the Fisher-Yates Shuffle. Other methods of shuffling can favour some items in the array more than others, however the Fisher Yates Shuffle allows for a more even spread of probability of the answer being placed on each button. I used the following [YouTube tutorial](https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3) to further adapt the shuffle I had researched on W3Schools to work with the data I had.
-
-As the JavaScript modules of the Code Institute Diploma did not cover local storage, I had to do a bit of research into this topic myself in order to set up the high scores section of my site.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) which taught me to save the team name and score to an object, that would then be saved into an array in local storage. It also explained how to sort the items in the array into descending score order, and then to splice the array, I have used the MAX_HIGH_SCORES as my point to splice.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) to learn how to insert the local storage into the high scores page.
+* I used "Love running" walkthrough material to get help constructing my initial project.
 
 ### Content
 
-All questions for my site were pulled from [The Open Trivia Database](https://opentdb.com/) using their API.
-
-All other content for the site, such as introduction messages and instructions were written by myself.
+All the text content was written by myself. 
 
 ### Media
 
-[Page background image of a pub](https://pixabay.com/photos/bar-pub-cafe-establishment-stools-2209813/)
+* [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) were used for all images.
 
 ### Acknowledgments
 
@@ -294,6 +282,8 @@ I would like to acknowledge the following people:
 
 * Jubril Akolade - My Code Institute Mentor.
 
+* The Tutor support from Code Institute for assisting and explaining.
+
 * The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to review my project and look over the code.
 
-* The Tutor support from Code Institute for assisting and explaining.
+* My fellow co-student Efi (https://github.com/EfthymiaKakoulidou) for giving me feedback and reviewing my project.
