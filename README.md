@@ -276,4 +276,4 @@ I would like to acknowledge the following people:
 
 * The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to review my project and look over the code.
 
-* My fellow co-student Efi (https://github.com/EfthymiaKakoulidou) for giving me feedback and reviewing my project.
+* My fellow co-student [Efi](https://github.com/EfthymiaKakoulidou) for giving me feedback and reviewing my project.
