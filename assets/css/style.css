@@ -134,13 +134,14 @@ main {
     text-align: center;
     left: 30px;
     right: 30px;
-
 }
 
-#hero-text > h2,
-#hero-text > h3 {
+#hero-text > h4, #hero-text > h3, #hero-text > a {
     color: #fffcc9;
+    text-decoration: none;
 }
+
+
 
 
 /*About Kiki section*/
