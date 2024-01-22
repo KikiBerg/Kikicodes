@@ -42,7 +42,7 @@ h3 {
 /*HEADER*/
 header {
     background-color: #FFFBAC;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -141,9 +141,6 @@ main {
     text-decoration: none;
 }
 
-
-
-
 /*About Kiki section*/
 #about {
     width: 90%;
@@ -156,8 +153,7 @@ main {
     font-size: 280%;
 }
 
-#about-education > div,
-#experience-techstack > div {
+#about-education > div, #experience-techstack > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -261,16 +257,26 @@ main {
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
-    padding: 20px 10% 0;
-
+    padding: 20%;
+     
 }
 
-#contact-form {
+.form-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#contact-form {  
+   
     color: #fffcc9;
-    background-color: rgba(64, 81, 59, 0.6);
-    padding: 30px;
+    background-color: rgba(64, 81, 59, 0.9);
+    padding: 20px;
     border: 1px solid #FFFBAC;
     border-radius: 10px;
+    
+         
 }
 
 #contact-form > h4 {
@@ -297,13 +303,16 @@ main {
 }
 
 .join-button {
+    align-self: center;
     margin-top: 20px;
-    border-radius: 10px;
+    border: 0.5px dotted #fffcc9;
+    border-radius: 5px;
     padding: 5px 30px;
     background-color: rgba(64, 81, 59, 0.6);
     color: #fffcc9;
     font-size: 100%;
     text-transform: lowercase;
+   
 }
 
 
@@ -403,14 +412,18 @@ footer {
     #contact {
         background-position: center;
         position: relative;
+        
+    }
 
+    .form-center {
+        display: flex;
+        justify-content: center;
     }
 
     #contact-form {
-        max-width: 200px;
         position: absolute;
-        left: 10%;
-        top: 30px;
+        top: 80px;
+               
     }
 
     .text-input:hover {
