@@ -13,10 +13,6 @@ Hopefully it will work as a placeholder while I'm developing my portfolio site.
 ![GitHub language count](https://img.shields.io/github/languages/count/KikiBerg/Kikicodes)
 ![GitHub top language](https://img.shields.io/github/languages/top/KikiBerg/Kikicodes)
 
-
-
-
-
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
@@ -79,9 +75,8 @@ I wanted to create an online portfolio about myself.
 
 ### Colour Scheme
 
-As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. Red and green  are very typical colours in traditional British public houses, with the red & green used for upholstery.
-
-In my css file I have used variables to declare colours, and then used these throughout the css file. I was recently introduced to this method during a hackathon - it is a useful convention to use as it allows you to alter the colour throughout the website if you decide to update a colour, by changing the colour once in the variable.
+As I make use of background images for 3 out of 4 pages, I wanted to keep the colour scheme used on the site coherent and 
+straightforward so as to not overwhelm users. Green and yellow are typical colours we associate with nature and outdoors and as I wanted to present myself and my interests I used relevant colors.
 
 * I have used `#FFFCC9` & `#40513B` as the primary and secondary colours used for the sites text.
 * I have used `#FFFEF7` as the overlay used over the sites background image.
@@ -94,10 +89,10 @@ In my css file I have used variables to declare colours, and then used these thr
 
 Google Fonts was used to import the chosen fonts for use in the site.
 
-* I have used the google font [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans).
-* The reason I chose this one is for its clean and modern sans-serif typeface.
-* It’s readable in both small and huge sizes.
-* It's simple and makes the content easily readable.
+I have used the google font [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans). The reasons I chose this one is:
+* its clean and modern sans-serif typeface.
+* it is comprehensible in both small and huge sizes.
+* it is simple and makes the content easily readable.
 
 ### Imagery
 
@@ -164,7 +159,7 @@ In future implementations I would like to:
 
 I have tried during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
 
-* Using semantic HTML, like <section>, <nav>, <main>, <header>, <footer> elements.
+* Using semantic HTML, like section, nav, main, header, footer elements.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
 * Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
 * I looked into red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
@@ -265,7 +260,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Content
 
-All the text content was written by myself. 
+* All the text content was written by myself. 
 
 ### Media
 
