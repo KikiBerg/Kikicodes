@@ -37,7 +37,7 @@ Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2F) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Home.png) | Passed. No warnings or errors |
 | About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fabout.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_About.png) | Passed. No warnings or errors|
-| Photos | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fphotos.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Photos.png) | Passed. No errors. 1 warning for section lacking heading. See [BUGS] below |
+| Photos | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fphotos.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Photos.png) | Passed. No errors. 1 warning for section lacking heading. See ![BUGS] below |
 | Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fcontact.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Contact.png) | Passed. No warnings or errors|
 
 #### W3C CSS Validator
@@ -52,32 +52,37 @@ File | Screenshot | Notes |
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
-### Desktop Results
+#### Desktop Results
 
-All pages of the site are achieving a score of 100 across the 4 categories.
+![index.html](testing/Kiki_codes_Testing_lh_desktop_Home.png)
 
-![index.html](testing/lighthouse/lighthouse-desktop-index.webp)
+![about.html](testing/Kiki_codes_Testing_lh_desktop_About.png)
 
-![about.html](testing/lighthouse/lighthouse-desktop-game.webp)
+![photos.html](testing/Kiki_codes_Testing_lh_desktop_Photos.png)
 
-![photos.html](testing/lighthouse/lighthouse-desktop-highscores.webp)
-
-![contact.html](testing/lighthouse/lighthouse-desktop-404.webp)
+![contact.html](testing/Kiki_codes_Testing_lh_desktop_Contact.png)
 
 
-### Mobile Results
+#### Mobile Results
 
-Each page is achieving a score of 100 for the last three categories. The performance category is achieving a score of 98 for the first three pages and a score of 99 on the 404 & 500 page.
+![index.html](testing/Kiki_codes_Testing_lh_mobile_Home.png)
 
-![index.html](testing/lighthouse/lighthouse-mobile-index.webp)
+![about.html](testing/Kiki_codes_Testing_lh_mobile_About.png)
 
-![about.html](testing/lighthouse/lighthouse-mobile-game.webp)
+![photos.html](testing/Kiki_codes_Testing_lh_mobile_Photos.png)
 
-![photos.html](testing/lighthouse/lighthouse-mobile-highscores.webp)
-
-![contact.html](testing/lighthouse/lighthouse-mobile-404.webp)
+![contact.html](testing/Kiki_codes_Testing_lh_mobile_Contact.png)
 
 - - -
+
+### Browser Compatibility
+
+I've tested my deployed project on multiple browsers to check for compatibility issues.
+
+| Browser | Home | About | Photos | Contact | 
+| --- | --- | --- | --- | --- |
+| Chrome | ![screenshot](documentation/browser-chrome-home.jpg) | ![screenshot](documentation/browser-chrome-about.jpg) | ![screenshot](documentation/browser-chrome-contact.jpg) | ![screenshot](documentation/browser-chrome-birthday-cakes.jpg)| ![screenshot](documentation/browser-chrome-speciallty-cakes.jpg) | ![screenshot](documentation/browser-chrome-sweet-treats.jpg) | Works as expected |
+| Edge | ![screenshot](documentation/browser-edge-home.jpg) | ![screenshot](documentation/browser-edge-about.jpg) | ![screenshot](documentation/browser-edge-contact.jpg) | ![screenshot](documentation/browser-edge-birthday-cakes.jpg) | ![screenshot](documentation/browser-edge-speciallty-cakes.jpg) | ![screenshot](documentation/browser-edge-sweet-treats.jpg) | Works as expected |
 
 ## MANUAL TESTING
 
