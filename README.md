@@ -46,9 +46,7 @@ Hopefully it will work as a placeholder while I'm developing my portfolio site.
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
-  * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
-  
+
 * [Credits](#credits)
   * [Code Used](#code-used)
   * [Content](#content)
@@ -56,6 +54,7 @@ Hopefully it will work as a placeholder while I'm developing my portfolio site.
   * [Acknowledgments](#acknowledgments)
 
 - - -
+
 ![The Kiki codes Banner](documentation/Kiki_codes_Banner.png)
 
 ## User Experience (UX)
@@ -159,25 +158,21 @@ The contact page displays the sites name as a title............
 In future implementations I would like to:
 
 1. Add one more page that will include any updates and news about Kiki's fulfillments.
-2. Look further into the accessibility for people with colour blindness, perhaps by adding symbols such as a tick or cross next to the answer when they are checked.
+2. Look further into the accessibility for people with colour blindness, perhaps by adding more symbols for checking or hovering.
 
 ### Accessibility
 
 I have tried during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
 
-* Using semantic HTML.
+* Using semantic HTML, like <section>, <nav>, <main>, <header>, <footer> elements.
 * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
 * Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
-* Ensuring that there is a sufficient colour contrast throughout the site.
+* I looked into red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
 
-![contrast button](documentation/contrast-btn.png) ![Contrast button hover](documentation/contrast-btn-hover.png) ![contrast text](documentation/contrast-text.png)
-
-As the site relies on colour to display to the user whether an answer is correct or incorrect, I was interested to see what this would look like for someone with red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
-
-In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the quiz easier. Each of the images below have whether they are correct/incorrect in the name. Can you tell which one is which?
-
-![Colour blindness (red/green) correct answer](documentation/rg-colour-blind-correct.png)
-![Colour blindness (red/green) incorrect answer](documentation/rg-colour-blind-incorrect.png)
+![Colour blindness (red/green) home page](documentation/Kiki_codes_red-green-color-blindness_home.webp)
+![Colour blindness (red/green) about page](documentation/Kiki_codes_red-green-color-blindness_about.webp)
+![Colour blindness (red/green) photos page](documentation/Kiki_codes_red-green-color-blindness_photos.webp)
+![Colour blindness (red/green) contact page](documentation/Kiki_codes_red-green-color-blindness_contact.webp)
 
 - - -
 
