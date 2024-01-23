@@ -1,6 +1,6 @@
 # Kiki codes -  Testing
 
-![Kiki codes shown on a variety of screen sizes](assets/images/Kiki_codes_Mockup.png)
+![Kiki codes shown on a variety of screen sizes](documentation/kiki_codes_mockup.webp)
 
 Visit the deployed site: [Kiki codes](https://kikiberg.github.io/Kikicodes/)
 
@@ -37,7 +37,7 @@ Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2F) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Home.png) | Passed. No warnings or errors |
 | About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fabout.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_About.png) | Passed. No warnings or errors|
-| Photos | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fphotos.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Photos.png) | Passed. No errors. 1 warning for section lacking heading. See ![BUGS] below |
+| Photos | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fphotos.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Photos.png) | Passed. No errors. 1 warning for section lacking heading. I added this in CSS and turned it to hidden. |
 | Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fcontact.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Contact.png) | Passed. No warnings or errors|
 
 #### W3C CSS Validator

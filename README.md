@@ -1,6 +1,6 @@
 # Kiki codes
 
-![The Kiki codes shown on a variety of screen sizes](assets/images/Kiki_codes_Mockup.png)
+![The Kiki codes shown on a variety of screen sizes](documentation/kiki_codes_mockup.webp)
 
 Visit the deployed site: [Kiki codes](https://kikiberg.github.io/Kikicodes/)
 
@@ -51,7 +51,7 @@ Hopefully it will work as a placeholder while I'm developing my portfolio site.
 
 - - -
 
-![The Kiki codes Banner](documentation/Kiki_codes_Banner.png)
+![The Kiki codes Banner](documentation/kiki_codes_banner.png)
 
 ## User Experience (UX)
 
@@ -83,7 +83,7 @@ straightforward so as to not overwhelm users. Green and yellow are typical colou
 * I have used `#FFFBAC` for the header.
 * I have used `#40513B` for the footer.
 
-  ![Kiki codes Color Scheme](documentation/Kiki_codes_Color_Scheme.webp)
+  ![Kiki codes Color Scheme](documentation/kiki_codes_color_scheme.webp)
 
 ### Typography
 
@@ -115,38 +115,39 @@ All Pages on the website are responsive and have:
 
 * A favicon in the browser tab.
 
-![favicon](documentation/Kiki_codes_favicon.png)
+![favicon](documentation/kiki_codes_favicon.png)
 
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
-![The Kiki codes Title](documentation/Kiki_codes_Banner.png)
+![The Kiki codes Title](documentation/kiki_codes_banner.png)
 
 * Every page will display as dotted and underlined when there is a hovering. This feature is available only on larger devices.
 
-![Custom Cursor](documentation/Kiki_codes_Cursor.webp)
+![Custom Cursor](documentation/kiki_codes_cursor.jpg)
 
 #### The Home Page
 
 The home page of Kiki codes displays the site's name as a title, an image in the background and then a container which holds some Hi text.
+There are two sections; one for the bigger "hero" picture and one smaller that leads to the about page.
 
-![Home page image](documentation/Kiki_codes_Banner_Home_page.webp)
+![Home page image](documentation/kiki_codes_banner_home_page.webp)
 
 #### The About Page
 
 The about page displays the sites name as a title. There are two sections ............
 
-![About page image](documentation/Kiki_codes_Banner_About_page.webp)
+![About page image](documentation/kiki_codes_banner_about_page.webp)
 
 #### The Photos Page
 
 The photos page displays the sites name as a title............
 
-![Photos Page image](documentation/Kiki_codes_Banner_Photos_page.webp)
+![Photos Page image](documentation/kiki_codes_banner_photos_page.webp)
 
 #### The Contact Page
 
 The contact page displays the sites name as a title............
 
-![Contact page image](documentation/Kiki_codes_Banner_Contact_page.webp)
+![Contact page image](documentation/kiki_codes_banner_contact_page.webp)
 
 #### Future Implementations
 
@@ -164,10 +165,10 @@ I have tried during coding to ensure that the website is as accessible friendly 
 * Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
 * I looked into red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
 
-![Colour blindness (red/green) home page](documentation/Kiki_codes_red-green-color-blindness_home.webp)
-![Colour blindness (red/green) about page](documentation/Kiki_codes_red-green-color-blindness_about.webp)
-![Colour blindness (red/green) photos page](documentation/Kiki_codes_red-green-color-blindness_photos.webp)
-![Colour blindness (red/green) contact page](documentation/Kiki_codes_red-green-color-blindness_contact.webp)
+![Colour blindness (red/green) home page](documentation/kiki_codes_red-green-color-blindness_home.webp)
+![Colour blindness (red/green) about page](documentation/kiki_codes_red-green-color-blindness_about.webp)
+![Colour blindness (red/green) photos page](documentation/kiki_codes_red-green-color-blindness_photos.webp)
+![Colour blindness (red/green) contact page](documentation/kiki_codes_red-green-color-blindness_contact.webp)
 
 - - -
 
