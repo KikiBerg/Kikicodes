@@ -257,7 +257,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ### Code Used
 
-* I used "Love running" walkthrough material to get help constructing my initial project.
+* I looked back to "Love running" walkthrough material to get help constructing my initial project.
 
 ### Content
 

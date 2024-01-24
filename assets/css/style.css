@@ -115,10 +115,18 @@ main {
 
 /* Hero section*/
 #hero {
+    background: url('../images/caju-gomes-QDq3YliZg48-unsplash.webp') no-repeat center center/cover;
     height: 800px;
     width: 100%;
-    background: url('../images/caju-gomes-QDq3YliZg48-unsplash.webp') no-repeat center center/cover;
     position: relative;
+    flex-grow: 1;      
+}
+
+.hero-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #hero-text {
@@ -403,9 +411,16 @@ footer {
     }
 
     /*Hero*/
+    .hero-text-center{
+        display: flex;
+        justify-content: center;
+    }
+
     #hero-text {
-        width: 300px;
-        right: 50px;
+        /*width: 300px;
+        right: 50px;*/
+        position: absolute;
+         
     }
 
     
@@ -445,8 +460,7 @@ footer {
 
     #contact-form {
         position: absolute;
-        top: 80px;
-               
+        top: 80px;               
     }
 
     .text-input:hover {
