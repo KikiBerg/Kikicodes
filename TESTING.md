@@ -83,25 +83,25 @@ Apart from the Chrome Devtools, I've used [this site](http://www.responsinator.c
 `Home Page`
 
 | Mobile | Mobile landscape | Tablet | Desktop | Pass/Fail |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | ![screenshot](testing/kiki_codes_resp_home_mobile.webp)| ![screenshot](testing/kiki_codes_resp_home_mobile_land.webp) | ![screenshot](testing/kiki_codes_resp_home_tablet.webp) | ![screenshot](testing/kiki_codes_resp_home_desktop.webp) | Pass. Works as expected |
 
 `About Page`
 
 | Mobile | Mobile landscape | Tablet | Desktop | Pass/Fail |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | ![screenshot](testing/kiki_codes_resp_about_mobile.webp)| ![screenshot](testing/kiki_codes_resp_about_mobile_land.webp) | ![screenshot](testing/kiki_codes_resp_about_tablet.webp) | ![screenshot](testing/kiki_codes_resp_about_desktop.webp) | Pass. Works as expected |
 
 `Photos Page`
 
 | Mobile | Mobile landscape | Tablet | Desktop | Pass/Fail |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | ![screenshot](testing/kiki_codes_resp_photos_mobile.webp)| ![screenshot](testing/kiki_codes_resp_photos_mobile_land.webp) | ![screenshot](testing/kiki_codes_resp_photos_tablet.webp) | ![screenshot](testing/kiki_codes_resp_photos_desktop.webp) | Pass. Works as expected |
 
 `Contact Page`
 
 | Mobile | Mobile landscape | Tablet | Desktop | Pass/Fail |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | 
 | ![screenshot](testing/kiki_codes_resp_contact_mobile.webp)| ![screenshot](testing/kiki_codes_resp_contact_mobile_land.webp) | ![screenshot](testing/kiki_codes_resp_contact_tablet.webp) | ![screenshot](testing/kiki_codes_resp_contact_desktop.webp) | Pass. Works as expected |
 
 - - -
@@ -113,8 +113,7 @@ I have tested my deployed project on two different browsers to check for compati
 | Browser | Home | About | Photos | Contact | 
 | --- | --- | --- | --- | --- |
 | Chrome | ![screenshot](testing/kiki_codes_browser_chrome_home.webp) | ![screenshot](testing/kiki_codes_browser_chrome_about.webp) | ![screenshot](testing/kiki_codes_browser_chrome_contact.webp) | ![screenshot](testing/kiki_codes_browser_chrome_photos.webp)|
-
-| Edge | ![screenshot](testing/kiki_codes_browser_edge_home.webp) | ![screenshot](testing/kiki_codes_browser_edge_about.webp) | ![screenshot](testing/kiki_codes_browser_edge_contact.webp) | ![screenshot](testing/kiki_codes_browser_edge_photos.webp) | 
+| Edge | ![screenshot](testing/kiki_codes_browser_edge_home.webp) | ![screenshot](testing/kiki_codes_browser_edge_about.webp) | ![screenshot](testing/kiki_codes_browser_edge_contact.webp) | ![screenshot](testing/kiki_codes_browser_edge_photos.webp)| 
 
 - - -
 
