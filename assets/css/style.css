@@ -125,8 +125,7 @@ main {
 .hero-text-center {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 #hero-text {
@@ -140,9 +139,7 @@ main {
     width: fit-content;
     min-height: 100px;
     padding: 15px;
-    text-align: center;
-    /*left: 30px;
-    right: 30px;*/
+    text-align: center;    
 }
 
 #hero-text > h3, #hero-text > h4 {
@@ -308,9 +305,7 @@ main {
     background-color: rgba(64, 81, 59, 0.9);
     padding: 20px;
     border: 1px solid #FFFBAC;
-    border-radius: 10px;
-    
-         
+    border-radius: 10px;        
 }
 
 #contact-form > h4 {
@@ -329,7 +324,6 @@ main {
     height: 25px;
     margin: 5px 0 20px;
     padding: 0 5px;
-
 }
 
 ::placeholder {
@@ -345,8 +339,7 @@ main {
     background-color: rgba(64, 81, 59, 0.6);
     color: #fffcc9;
     font-size: 100%;
-    text-transform: lowercase;
-   
+    text-transform: lowercase;   
 }
 
 
@@ -423,8 +416,7 @@ footer {
     #hero-text {
         /*width: 300px;
         right: 50px;*/
-        position: absolute;
-         
+        position: absolute;         
     }
 
     
@@ -453,8 +445,7 @@ footer {
 
     #contact {
         background-position: center;
-        position: relative;
-        
+        position: relative;        
     }
 
     .form-center {
@@ -504,7 +495,6 @@ footer {
 
     #kiki-image {
         order: 0;
-
     }
 
     #experience-techstack {
