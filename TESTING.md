@@ -19,6 +19,7 @@ Return back to the [README.md](README.md) file.
 * [MANUAL TESTING](#manual-testing)
   * [Testing User Stories](#testing-user-stories)
   * [User Testing](#user-testing)
+  * [Full Testing](#full-testing)
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
 During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
@@ -78,7 +79,8 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 ### Responsiveness
 
 I have tested my deployed project on multiple devices to check for responsiveness issues. No issues were found.
-Apart from the Chrome Devtools, I've used [this site](http://www.responsinator.com/) to quickly check responsiveness on different devices and get screenshots for the testing.md file.
+Apart from the Chrome Devtools, I've used [this site](http://www.responsinator.com/) to quickly check responsiveness on different devices and get screenshots for the testing.md file. The screenshots for desktop are from devtools.
+
 
 `Home Page`
 
@@ -169,4 +171,16 @@ Screenshot | Pass/Fail |
 
 - - -
 
+### Full Testing
 
+Full testing was performed on the following devices:
+
+* DESKTOP-24171KO
+* Display: Apple 27" LED Cinema
+
+`Home Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
+| How to play button | Displays the modal with the instructions on how to play the game | Clicked on button | Modal with instructions on how to play opens | Pass |

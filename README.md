@@ -155,6 +155,7 @@ In future implementations I would like to:
 
 1. Add one more page that will include any updates and news about Kiki's fulfillments.
 2. Look further into the accessibility for people with colour blindness, perhaps by adding more symbols for checking or hovering.
+3. Work more with cursor property in CSS so to control what the mouse cursor will look like when it is located over the element in which this property is set.
 
 ### Accessibility
 
