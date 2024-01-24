@@ -146,7 +146,7 @@ Additional testing was taken by other friends and family on a variety of devices
 
 Screenshot | Pass/Fail |
 | --- | --- |
-| ![screenshot]() | Pass. Works as expected |
+| ![screenshot](testing/kiki_codes_test_efi_home.webp) | Pass. Works as expected |
 
 `About Page`
 
