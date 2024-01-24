@@ -131,18 +131,23 @@ main {
 
 #hero-text {
     /*Final rgba value sets the opacity so it is semi-transparent*/
-    background-color: rgba(115, 144, 114, 0.7);
+    background-color: rgba(115, 144, 114, 0.7);    
+    border: 1px solid #FFFBAC;
+    border-radius: 10px; 
     font-size: 130%;
     position: absolute;
     bottom: 50px;
     width: fit-content;
     min-height: 100px;
     padding: 15px;
-    border: 1.5px solid #3A4D39;
-    border-radius: 15px;
     text-align: center;
-    left: 30px;
-    right: 30px;
+    /*left: 30px;
+    right: 30px;*/
+}
+
+#hero-text > h3, #hero-text > h4 {
+    color: #fffcc9;
+    margin-bottom: 20px;
 }
 
 #link-to-about {
@@ -151,8 +156,7 @@ main {
     /*Handles rensponsivity without the need for a media query*/
     position: relative; 
     display: flex;
-    justify-content: center;
-       
+    justify-content: center;  
 }
 
 #link-to-about-text  {
