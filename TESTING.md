@@ -13,11 +13,14 @@ Return back to the [README.md](README.md) file.
 * [AUTOMATED TESTING](#automated-testing)
   * [W3C Validator](#w3c-validator)
   * [Lighthouse](#lighthouse)
+  * [Responsiveness](#responsiveness)
   * [Browser Compatibility](#browser-compatibility)
+
 * [MANUAL TESTING](#manual-testing)
   * [Testing User Stories](#testing-user-stories)
-  * [Full Testing](#full-testing)
-* [BUGS](#bugs-fixing)
+  * [User Testing](#user-testing)
+
+
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
 During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
@@ -35,16 +38,16 @@ I have gone through each page using google chrome developer tools to ensure that
 
 Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2F) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Home.png) | Passed. No warnings or errors |
-| About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fabout.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_About.png) | Passed. No warnings or errors|
-| Photos | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fphotos.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Photos.png) | Passed. No errors. 1 warning for section lacking heading. I added this in CSS and turned it to hidden. |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fcontact.html) | ![screenshot](testing/Kiki_codes_Testing_w3_html_Contact.png) | Passed. No warnings or errors|
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2F) | ![screenshot](testing/kiki_codes_testing_w3_html_home.png) | Passed. No warnings or errors |
+| About | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fabout.html) | ![screenshot](testing/kiki_codes_testing_w3_html_about.png) | Passed. No warnings or errors|
+| Photos | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fphotos.html) | ![screenshot](testing/kiki_codes_testing_w3_html_photos.png) | Passed. No errors. 1 warning for section lacking heading. I added this in CSS and turned it to hidden. |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkikiberg.github.io%2FKikicodes%2Fcontact.html) | ![screenshot](testing/kiki_codes_testing_w3_html_contact.png) | Passed. No warnings or errors|
 
 #### W3C CSS Validator
 
 File | Screenshot | Notes |
 | --- | --- | --- |
-| style.css | ![screenshot](testing/Kiki_codes_Testing_w3_css.png) | Passed. No errors. 1 warning for google font import style. |
+| style.css | ![screenshot](testing/kiki_codes_testing_w3_css.png) | Passed. No errors. 1 warning for google font import style, which I ignored. |
 
 - - -
 
@@ -54,23 +57,36 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 #### Desktop Results
 
-![index.html](testing/Kiki_codes_Testing_lh_desktop_Home.png)
+![index.html](testing/kiki_codes_testing_lh_desktop_home.png)
 
-![about.html](testing/Kiki_codes_Testing_lh_desktop_About.png)
+![about.html](testing/kiki_codes_testing_lh_desktop_about.png)
 
-![photos.html](testing/Kiki_codes_Testing_lh_desktop_Photos.png)
+![photos.html](testing/kiki_codes_testing_lh_desktop_photos.png)
 
-![contact.html](testing/Kiki_codes_Testing_lh_desktop_Contact.png)
+![contact.html](testing/kiki_codes_testing_lh_desktop_contact.png)
 
 #### Mobile Results
 
-![index.html](testing/Kiki_codes_Testing_lh_mobile_Home.png)
+![index.html](testing/kiki_codes_testing_lh_mobile_home.png)
 
-![about.html](testing/Kiki_codes_Testing_lh_mobile_About.png)
+![about.html](testing/kiki_codes_testing_lh_mobile_about.png)
 
-![photos.html](testing/Kiki_codes_Testing_lh_mobile_Photos.png)
+![photos.html](testing/kiki_codes_testing_lh_mobile_photos.png)
 
-![contact.html](testing/Kiki_codes_Testing_lh_mobile_Contact.png)
+![contact.html](testing/kiki_codes_testing_lh_mobile_contact.png)
+
+- - -
+
+### Responsiveness
+
+I have tested my deployed project on multiple devices to check for responsiveness issues.
+Apart from the Chrome Devtools, I've used [this site](http://www.responsinator.com/) to quickly check responsiveness on different devices.
+
+| Device | Home | About | Photos | Contact | 
+| --- | --- | --- | --- | --- |
+| Mobile | ![screenshot](documentation/browser-chrome-home.jpg) | ![screenshot](documentation/browser-chrome-about.jpg) | ![screenshot](documentation/browser-chrome-contact.jpg) | ![screenshot](documentation/browser-chrome-birthday-cakes.jpg)| ![screenshot](documentation/browser-chrome-speciallty-cakes.jpg) | ![screenshot](documentation/browser-chrome-sweet-treats.jpg) | Works as expected |
+| Tablet | ![screenshot](documentation/browser-edge-home.jpg) | ![screenshot](documentation/browser-edge-about.jpg) | ![screenshot](documentation/browser-edge-contact.jpg) | ![screenshot](documentation/browser-edge-birthday-cakes.jpg) | ![screenshot](documentation/browser-edge-speciallty-cakes.jpg) | ![screenshot](documentation/browser-edge-sweet-treats.jpg) | Works as expected |
+| Desktop | ![screenshot](documentation/browser-edge-home.jpg) | ![screenshot](documentation/browser-edge-about.jpg) | ![screenshot](documentation/browser-edge-contact.jpg) | ![screenshot](documentation/browser-edge-birthday-cakes.jpg) | ![screenshot](documentation/browser-edge-speciallty-cakes.jpg) | ![screenshot](documentation/browser-edge-sweet-treats.jpg) | Works as expected |
 
 - - -
 
@@ -105,42 +121,36 @@ I have tested my deployed project on multiple browsers to check for compatibilit
 
 - - -
 
-### Full Testing
+### User Testing
 
-Full testing was performed on the following devices:
-
-* Laptop:
-  * Macbook Pro 2021 14 inch screen
-* Mobile Devices:
-  * iPhone 13 pro.
-  * iPhone 11 pro.
-  * Phone X.
-
-Additional testing was taken by friends and family on a variety of devices and screen sizes. They reported no issues when using the website.
+A friend tested it on her iPhone 13 and provided screenshots.
+Additional testing was taken by other friends and family on a variety of devices and screen sizes. They reported no issues when using the website.
 
 `Home Page`
 
-| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
-
+| Page | Screenshot | Pass/Fail |
+| --- | --- | --- |
+| Home | ![screenshot](testing/kiki_codes_test_efi_home.webp) | Pass. Works as expected |
 
 `About Page`
 
-| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
-
+| Page | Screenshot | Pass/Fail |
+| --- | --- | --- |
+| About | ![screenshot](testing/kiki_codes_test_efi_about1.webp) | Pass. Works as expected |
+| About | ![screenshot](testing/kiki_codes_test_efi_about2.webp) | Pass. Works as expected |
 
 `Photos Page`
 
-| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
+| Page | Screenshot | Pass/Fail |
+| --- | --- | --- | 
+| Photos | ![screenshot](testing/kiki_codes_test_efi_photos.webp) | Pass. Works as expected |
 
 `Contact Page`
 
-| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --- | --- | --- | --- | --- |
+| Page | Screenshot | Pass/Fail |
+| --- | --- | --- | 
+| Contact | ![screenshot](testing/kiki_codes_test_efi_contact.webp) | Pass. Works as expected |
 
 - - -
 
-## BUGS
 
