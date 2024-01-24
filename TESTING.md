@@ -20,8 +20,6 @@ Return back to the [README.md](README.md) file.
   * [Testing User Stories](#testing-user-stories)
   * [User Testing](#user-testing)
 
-
-
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
 During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
 I have gone through each page using google chrome developer tools to ensure that each page is responsive on a variety of different screen sizes and devices.
@@ -79,25 +77,44 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ### Responsiveness
 
-I have tested my deployed project on multiple devices to check for responsiveness issues.
-Apart from the Chrome Devtools, I've used [this site](http://www.responsinator.com/) to quickly check responsiveness on different devices.
+I have tested my deployed project on multiple devices to check for responsiveness issues. No issues were found.
+Apart from the Chrome Devtools, I've used [this site](http://www.responsinator.com/) to quickly check responsiveness on different devices and get screenshots for the testing.md file.
 
-| Device | Home | About | Photos | Contact | 
-| --- | --- | --- | --- | --- |
-| Mobile | ![screenshot](documentation/browser-chrome-home.jpg) | ![screenshot](documentation/browser-chrome-about.jpg) | ![screenshot](documentation/browser-chrome-contact.jpg) | ![screenshot](documentation/browser-chrome-birthday-cakes.jpg)| ![screenshot](documentation/browser-chrome-speciallty-cakes.jpg) | ![screenshot](documentation/browser-chrome-sweet-treats.jpg) | Works as expected |
-| Tablet | ![screenshot](documentation/browser-edge-home.jpg) | ![screenshot](documentation/browser-edge-about.jpg) | ![screenshot](documentation/browser-edge-contact.jpg) | ![screenshot](documentation/browser-edge-birthday-cakes.jpg) | ![screenshot](documentation/browser-edge-speciallty-cakes.jpg) | ![screenshot](documentation/browser-edge-sweet-treats.jpg) | Works as expected |
-| Desktop | ![screenshot](documentation/browser-edge-home.jpg) | ![screenshot](documentation/browser-edge-about.jpg) | ![screenshot](documentation/browser-edge-contact.jpg) | ![screenshot](documentation/browser-edge-birthday-cakes.jpg) | ![screenshot](documentation/browser-edge-speciallty-cakes.jpg) | ![screenshot](documentation/browser-edge-sweet-treats.jpg) | Works as expected |
+`Home Page`
+
+| Mobile | Mobile landscape | Tablet | Desktop | Pass/Fail |
+| --- | --- | --- | --- | --- | --- | --- |
+| ![screenshot](testing/kiki_codes_resp_home_mobile.webp)| ![screenshot](testing/kiki_codes_resp_home_mobile_land.webp) | ![screenshot](testing/kiki_codes_resp_home_tablet.webp) | ![screenshot](testing/kiki_codes_resp_home_desktop.webp) | Pass. Works as expected |
+
+`About Page`
+
+| Mobile | Mobile landscape | Tablet | Desktop | Pass/Fail |
+| --- | --- | --- | --- | --- | --- | --- |
+| ![screenshot](testing/kiki_codes_resp_about_mobile.webp)| ![screenshot](testing/kiki_codes_resp_about_mobile_land.webp) | ![screenshot](testing/kiki_codes_resp_about_tablet.webp) | ![screenshot](testing/kiki_codes_resp_about_desktop.webp) | Pass. Works as expected |
+
+`Photos Page`
+
+| Mobile | Mobile landscape | Tablet | Desktop | Pass/Fail |
+| --- | --- | --- | --- | --- | --- | --- |
+| ![screenshot](testing/kiki_codes_resp_photos_mobile.webp)| ![screenshot](testing/kiki_codes_resp_photos_mobile_land.webp) | ![screenshot](testing/kiki_codes_resp_photos_tablet.webp) | ![screenshot](testing/kiki_codes_resp_photos_desktop.webp) | Pass. Works as expected |
+
+`Contact Page`
+
+| Mobile | Mobile landscape | Tablet | Desktop | Pass/Fail |
+| --- | --- | --- | --- | --- | --- | --- |
+| ![screenshot](testing/kiki_codes_resp_contact_mobile.webp)| ![screenshot](testing/kiki_codes_resp_contact_mobile_land.webp) | ![screenshot](testing/kiki_codes_resp_contact_tablet.webp) | ![screenshot](testing/kiki_codes_resp_contact_desktop.webp) | Pass. Works as expected |
 
 - - -
 
 ### Browser Compatibility
 
-I have tested my deployed project on multiple browsers to check for compatibility issues.
+I have tested my deployed project on two different browsers to check for compatibility issues. No issues were found.
 
 | Browser | Home | About | Photos | Contact | 
 | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-chrome-home.jpg) | ![screenshot](documentation/browser-chrome-about.jpg) | ![screenshot](documentation/browser-chrome-contact.jpg) | ![screenshot](documentation/browser-chrome-birthday-cakes.jpg)| ![screenshot](documentation/browser-chrome-speciallty-cakes.jpg) | ![screenshot](documentation/browser-chrome-sweet-treats.jpg) | Works as expected |
-| Edge | ![screenshot](documentation/browser-edge-home.jpg) | ![screenshot](documentation/browser-edge-about.jpg) | ![screenshot](documentation/browser-edge-contact.jpg) | ![screenshot](documentation/browser-edge-birthday-cakes.jpg) | ![screenshot](documentation/browser-edge-speciallty-cakes.jpg) | ![screenshot](documentation/browser-edge-sweet-treats.jpg) | Works as expected |
+| Chrome | ![screenshot](testing/kiki_codes_browser_chrome_home.webp) | ![screenshot](testing/kiki_codes_browser_chrome_about.webp) | ![screenshot](testing/kiki_codes_browser_chrome_contact.webp) | ![screenshot](testing/kiki_codes_browser_chrome_photos.webp)|
+
+| Edge | ![screenshot](testing/kiki_codes_browser_edge_home.webp) | ![screenshot](testing/kiki_codes_browser_edge_about.webp) | ![screenshot](testing/kiki_codes_browser_edge_contact.webp) | ![screenshot](testing/kiki_codes_browser_edge_photos.webp) | 
 
 - - -
 
@@ -128,28 +145,28 @@ Additional testing was taken by other friends and family on a variety of devices
 
 `Home Page`
 
-| Page | Screenshot | Pass/Fail |
-| --- | --- | --- |
-| Home | ![screenshot](testing/kiki_codes_test_efi_home.webp) | Pass. Works as expected |
+Screenshot | Pass/Fail |
+| --- | --- |
+| ![screenshot]() | Pass. Works as expected |
 
 `About Page`
 
-| Page | Screenshot | Pass/Fail |
-| --- | --- | --- |
-| About | ![screenshot](testing/kiki_codes_test_efi_about1.webp) | Pass. Works as expected |
-| About | ![screenshot](testing/kiki_codes_test_efi_about2.webp) | Pass. Works as expected |
+| Screenshot | Pass/Fail |
+| --- | --- |
+| ![screenshot](testing/kiki_codes_test_efi_about1.webp) | Pass. Works as expected |
+| ![screenshot](testing/kiki_codes_test_efi_about2.webp) | Pass. Works as expected |
 
 `Photos Page`
 
-| Page | Screenshot | Pass/Fail |
-| --- | --- | --- | 
-| Photos | ![screenshot](testing/kiki_codes_test_efi_photos.webp) | Pass. Works as expected |
+| Screenshot | Pass/Fail |
+| --- | --- | 
+| ![screenshot](testing/kiki_codes_test_efi_photos.webp) | Pass. Works as expected |
 
 `Contact Page`
 
-| Page | Screenshot | Pass/Fail |
-| --- | --- | --- | 
-| Contact | ![screenshot](testing/kiki_codes_test_efi_contact.webp) | Pass. Works as expected |
+| Screenshot | Pass/Fail |
+| --- | --- | 
+| ![screenshot](testing/kiki_codes_test_efi_contact.webp) | Pass. Works as expected |
 
 - - -
 
