@@ -120,9 +120,9 @@ All Pages on the website are responsive and have:
 * The title of the site at the top of every page. This title also acts as a link back to the home page.
 ![The Kiki codes Title](documentation/kiki_codes_banner.png)
 
-* Every page will display as dotted and underlined when there is a hovering. This feature is available only on larger devices.
+* Every page will display as dotted and marked when there is a hovering. 
 
-![Custom Cursor](documentation/kiki_codes_cursor.jpg)
+![Custom Cursor](documentation/kiki_codes_cursor_background.webp)
 
 #### The Home Page
 
@@ -133,21 +133,23 @@ There are two sections; one for the bigger "hero" picture and one smaller that l
 
 #### The About Page
 
-The about page displays the sites name as a title. There are two sections ............
+The about page displays the sites name as a title. There are two sections; one for Kikis background and one for Kikis interests.
 
 ![About page image](documentation/kiki_codes_banner_about_page.webp)
 
 #### The Photos Page
 
-The photos page displays the sites name as a title............
+The photos page displays the sites name as a title. There is a photo gallery showing some of Kikis interests, as mentioned in the previous page.
 
 ![Photos Page image](documentation/kiki_codes_banner_photos_page.webp)
 
 #### The Contact Page
 
-The contact page displays the sites name as a title............
+The contact page displays the sites name as a title. There is a contact page with a form that leads to a Thank you page upon submitting.
 
 ![Contact page image](documentation/kiki_codes_banner_contact_page.webp)
+
+![Thank you page image](documentation/Kiki_codes_banner_thankyou.webp)
 
 #### Future Implementations
 
@@ -162,7 +164,7 @@ In future implementations I would like to:
 I have tried during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
 
 * Using semantic HTML, like section, nav, main, header, footer elements.
-* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
+* Using a hover state on all the page buttons to make it clear to the user if they are hovering over a certain page.
 * Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
 * I looked into red/green colour blindness. I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to be able to see what someone with red/green colour blindness would see.
 
@@ -275,7 +277,5 @@ I would like to acknowledge the following people:
 * Jubril Akolade - My Code Institute Mentor.
 
 * The Tutor support from Code Institute for assisting and explaining.
-
-* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to review my project and look over the code.
 
 * My fellow co-student [Efi](https://github.com/EfthymiaKakoulidou) for giving me feedback and reviewing my project.

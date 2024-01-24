@@ -182,5 +182,24 @@ Full testing was performed on the following devices:
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| The Sites title | Link directs the user back to the home page | Clicked title | Home page reloads | Pass |
-| How to play button | Displays the modal with the instructions on how to play the game | Clicked on button | Modal with instructions on how to play opens | Pass |
+| Jump to this page! | Link directs the user to about page | Clicked title | About page reloads | Pass |
+| Say hi on Linkedin | Link directs the user to Kiki's Linkedin profile | Clicked on button | Linkedin page appears in a new tab | Pass |
+
+`Contact Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Text input | The border should get a different color when user starts typing | Type text | The border's colour changes | Pass |
+| Submit button | The colour should change to yellow | When hovering over the button | The colour changes | Pass |
+
+`Header, Menu pages`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Page title | The pages should get a background color and a transition effekt | Hover over | The pages get a background color and a transition effekt | Pass |
+
+`Footer`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Socials | The socials should lead to the respective page in a new tap | Clicked on | The socials appear in a new tab | Pass |
