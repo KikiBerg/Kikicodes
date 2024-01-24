@@ -100,12 +100,9 @@ As the website is called Kiki codes, I wanted to make the coding theme stand out
 
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop using balsamiq.
+I used balsamiq to get an initial understanding of the device sizes in relation to what I wanted to show.
 
-![Home Page](documentation/wireframes/homewireframe.webp)
-![About Page](documentation/wireframes/difficultywireframe.webp)
-![Photos Page](documentation/wireframes/gamewireframe.webp)
-![Contact Page](documentation/wireframes/highscorewireframe.webp)
+![Home Page](documentation/kiki_codes_balsamiq.webp)
 
 ### Features
 
@@ -261,6 +258,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 ### Code Used
 
 * I looked back to "Love running" walkthrough material to get help constructing my initial project.
+* U used this code I found on [StackOverflow](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space), so that the user would not be able to put whitespace at the beginning/end, when filling the contact form.
 
 ### Content
 
@@ -279,3 +277,5 @@ I would like to acknowledge the following people:
 * The Tutor support from Code Institute for assisting and explaining.
 
 * My fellow co-student [Efi](https://github.com/EfthymiaKakoulidou) for giving me feedback and reviewing my project.
+
+* Last, but not least, [Kera](https://github.com/kera-cudmore) for her excellent guide on how to create a ReadMe.
