@@ -21,6 +21,9 @@ Return back to the [README.md](README.md) file.
   * [User Testing](#user-testing)
   * [Full Testing](#full-testing)
 
+* [BUGS](#bugs)
+
+
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
 During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
 I have gone through each page using google chrome developer tools to ensure that each page is responsive on a variety of different screen sizes and devices.
@@ -204,3 +207,13 @@ Full testing was performed on the following devices:
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
 | Socials | The socials should lead to the respective page in a new tap | Clicked on | The socials appear in a new tab | Pass |
+
+- - -
+
+## BUGS
+
+The thankyou page appears correctly upon submitting the contact form.
+When validating my thankyou page, I got this bug: ![screenshot](testing/kiki_codes_bug.png).
+The answer I got from Tutor support is that I could not get any help, as it is not a language that it is not taught on the course.
+
+
