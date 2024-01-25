@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -21,6 +24,7 @@
     </head>
 
     <body>
+        <?php echo $_GET["flname"]; ?>
 
     <!-- Header -->
     <header>
@@ -48,16 +52,13 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header>    
 
     <!-- Main content -->
     <main>
         <div id="thankyou">
             <div id="thankyouid">
-                <h1>Welcome!
-                    <?php echo $_GET["flname"]; ?>
-                    <br>
-                    Thanks for getting in touch.</h1>
+                <h1>Welcome!<br>Thanks for getting in touch.</h1>
                 <h3>Click<br><a href="index.html" class="pointer">here</a><br>to go back to the home page.</h3>
             </div>
         </div>

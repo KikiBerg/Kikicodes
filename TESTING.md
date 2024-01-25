@@ -191,6 +191,7 @@ Full testing was performed on the following devices:
 | --- | --- | --- | --- | --- |
 | Text input | The border should get a different color when user starts typing | Type text | The border's colour changes | Pass |
 | Submit button | The colour should change to yellow | When hovering over the button | The colour changes | Pass |
+| Warning when empty | "Please fill out this field" should appear | When not filling one or more inputs | "Please fill out this field" appears | Pass |
 
 `Header, Menu pages`
 
